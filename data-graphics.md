@@ -50,7 +50,7 @@ Make sure your color breaks don't mislead readers about the distribution of your
 
 If the pattern you see in your data only appears under a custom color break scale, rethink whether the pattern is actually in the data.
 
-For color breaks in numerical data, see [above](#Colors).
+For color breaks in numerical data, see [above](#colors).
 
 ## Corrections
 
@@ -166,6 +166,22 @@ Use AP style when using numbers in copy. That is, spell out numbers under 10 exc
 
 "Not available" and "not applicable" are abbreviated like this: N/A
 
+##Percent Change/ Percentage Change
+
+Wrong:
+
+In the USN newsroom, 50 percent of reporters liked math in 2010 and 60 percent of reporters liked math in 2012. This is a 10 percent increase in people who like math. 
+
+Right: 
+
+In the USN newsroom, 12 reporters liked math in 2010 and 16 reporters liked math in 2012. This is a 33 percent increase in math lovers. 
+
+To calculate percentage change, use the formula: 
+
+`(New number - old number)/ old number * 100`
+
+Or use this handy [calculator.](http://www.skillsyouneed.com/num/percent-change.html)
+
 ##  Reuse
 
 When a reporter or producer uses a graphic that has already been created, they need to verify that the data is the most recent available. 
@@ -196,7 +212,7 @@ Only use "total" as an adjective when it's not clear what you're totaling. Never
 
 ##  Transparency
 
-We communicate how we obtain information for our stories, and we must do the same for our data. Be transparent about how the numbers were calculated and why they were calculated in that way. See [methodology](#Methodology). 
+We communicate how we obtain information for our stories, and we must do the same for our data. Be transparent about how the numbers were calculated and why they were calculated in that way. See [methodology](#methodology). 
 
 ## Updates
 
@@ -208,5 +224,5 @@ Don't show both the original publication date and the most recent updated date i
 
 When the decision is reached to stop updating an app, put a prominent note on every page of the app that says when the app stopped being updated, and if possible, where to find more recent data.
 
-See [reuse](#Reuse). 
+See [reuse](#reuse). 
 
