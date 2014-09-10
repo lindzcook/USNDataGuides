@@ -1,4 +1,6 @@
-# ProPublica's Nerd Guides
+# U.S. News & World Report Data Guides
+
+Tools and best practices for the use of data and graphics in the USN&WR newsroom.
 
 ## Table of Contents
 
@@ -8,18 +10,8 @@
 4. [Social Tagging Guide](social-tags.html)
 5. [Data Bulletproofing Guide](data-bulletproofing.md)
 
-## License
+## Inspiration
+
+This guide is based off the Pro Publica Nerd Guide (see license below) and draws inspiration from the book *Guide to Information Graphics* by Dona Wong.
 
 These guides are copyright 2013 Pro Publica, Inc. and are licensed under a [Creative Commons BY-NC 3.0](http://creativecommons.org/licenses/by-nc/3.0/) license. You are free to share and to remix them, though not to use them commercially without permission.
-
-## Discuss
-
-You can submit issues using [Github Issues](https://github.com/propublica/guides/issues).
-
-## Contributing
-
-1. Fork it
-2. Create your branch (`git checkout -b my-guide`)
-3. Commit your changes (`git commit -am "Proposed Change"`)
-4. Push your branch (`git push origin my-guide`)
-5. Send a pull request
