@@ -9,6 +9,7 @@ Tools and best practices for the use of data and graphics in the USN&WR newsroom
 3. [A Guide to Bulletproofing Your Data](data-bulletproofing.md)
 4. [Make a State Map](https://datawrapper.de/), Guide
 5. Finding Data Guide
+6. [Convert a PDF to an Excel spreadsheet](http://tabula.nerdpower.org/)
 
 ## Inspiration
 
