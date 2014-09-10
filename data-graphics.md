@@ -1,5 +1,7 @@
 # USN&WR Graphics Style Guide
 
+_Our version by Lindsey Cook, USN based off a guide by Scott Klein, ProPublica_
+
 This style guide comprises the typographic and technical best practices used for the USN&WR newsroom.
 
 Using rules consistently make your job easier and prevent readers from having to struggle with new interfaces on every project, but remember that overdependence on rules can hamper progress, and that "a foolish consistency is the hobgoblin of little minds." 
