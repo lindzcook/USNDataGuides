@@ -40,7 +40,9 @@ When showing differences in rate of a single variable, stick to a single hue and
 
 Beware of using numerical cut-offs for gradient-like colors, see [here](http://junkcharts.typepad.com/junk_charts/2014/08/people-are-happier-in-some-parts-of-the-country-as-labor-day-nears.html).
 
-When using color to show category, use different colors instead of shades. 
+When using color to show category, use different colors instead of shades on maps.
+
+Using shades of the same color for bar graphs can be less distracting for the reader than using high contrast colors. 
 
 ## Color Breaks
 
@@ -96,11 +98,11 @@ For maps, include the state name on hovers. People forget where all the states a
 
 ##  Labels (Axes)
 
-See [Axes](#axes).
+See [axes](#axes).
 
 ##  Labels (Data)
 
-See [Legends](#legends).
+See [legends](#legends).
 
 ## Lead-in
 
@@ -114,7 +116,7 @@ Put explanatory copy in the article/blog post before the graphic. It should be v
 
 Always include the information needed to understand the chart with the chart. That means transparency about what the data is, where it came from and its timeframe. 
 
-In charts with only one element, include needed information on the axis or in the title. In charts with more than one element, use labels (by the lines or bars) or a legend, depending on which is more clear, but never both. 
+In charts with only one element, include needed information on the axis or in the title. In charts with more than one element, use labels (by the lines or bars) or a legend, depending on which is more clear, but never both. For a line chart, use a legend when space is tight and the lines intersect at many points, making it unclear from a label. Otherwise, use labels.
 
 A legend must be visible on the reader's computer screen when the chart is visible. Legends should be in the same sequence as the charts they describe.
 
@@ -127,6 +129,12 @@ Maps are best when showing data in which geography is an important variable. [Re
 All maps must be distinguishable from population maps. To accomplish this, the underlying data should control for population or other denominator. If you make a U.S. state choropleth map and the darkest states are New York, Texas and California, re-read this paragraph.
 
 Avoid bubble maps, which represent the rate of a phenomenon at different locations using differently sized circles. This is for two reasons: First, people cannot accurately perceive differences in the area of circles. Second, bubble maps appear to show the geographic bounds of a phenomenon and not the rate of that phenomenon at the geographic center of the circle. This is another way of saying that they look too much like nuclear blast radius maps.
+
+## Mean Versus Median
+
+The mean is the average of the data. The median if the middle value in a distribution of the data. 
+
+In general, use median if extreme outliers are present (like income level) and use mean otherwise. 
 
 ## Methodology 
 
@@ -148,7 +156,7 @@ The primary function of numbers in a graphic is to help readers understand scale
 
 Apply the following rules to numbers wherever they appear in graphics:
 
-Except where special precision is required, round numbers and use whole numbers. Don't portray precision that doesn't really exist. This can be accomplished in Excel using the [ROUND function.](http://office.microsoft.com/en-us/excel-help/round-a-number-HP003056144.aspx)
+Except where special precision is required, round numbers and use whole numbers. Don't portray precision that doesn't really exist. This can be accomplished in Excel using the [ROUND function.](http://office.microsoft.com/en-us/excel-help/round-a-number-HP003056144.aspx) Always round as your last step.
 
 When displaying numbers in a table, make them either right-aligned or decimal-aligned.
 
@@ -167,6 +175,8 @@ Use AP style when using numbers in copy. That is, spell out numbers under 10 exc
 "Not available" and "not applicable" are abbreviated like this: N/A
 
 ##Percent Change/ Percentage Change
+
+Percent change expresses the change in values as a percentage change from the original value. 
 
 Wrong:
 
@@ -189,6 +199,10 @@ When a reporter or producer uses a graphic that has already been created, they n
 Check the Google Doc for our data dictionary. A list of available graphics is on sheet two. Each graphic includes the date when it needs to be updated. Contact the creator to make sure.
 
 If a graphic you created has staying power, add it to the sheet so that it can be reused.
+
+## Rounding
+
+See [numbers](#numbers).
 
 ## States
 
