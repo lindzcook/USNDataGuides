@@ -1,14 +1,10 @@
-# USN&WR Data and Graphics Style Guide
+# USN&WR Graphics Style Guide
 
 This style guide comprises the typographic and technical best practices used for the USN&WR newsroom.
 
-Using rules consistently can make your job easier and can prevent readers from having to struggle with new interfaces on every project, but remember that overdependence on rules can hamper progress, and that "a foolish consistency is the hobgoblin of little minds." 
+Using rules consistently make your job easier and prevent readers from having to struggle with new interfaces on every project, but remember that overdependence on rules can hamper progress, and that "a foolish consistency is the hobgoblin of little minds." 
 
 Finally, This is a living document. Please feel free to propose changes.
-
-## Accuracy !!
-
-The most important thing by far is to be accurate.
 
 ## Asterisks
 
@@ -38,11 +34,13 @@ For guidance on which charts and tools to use, refer to the "Which Chart" guide.
 
 ## Colors
 
-Red-Green is the most common form of color blindness. Beware of using these colors to communicate data. To check if differences between colors can be perceived by color blind users, check [Color Oracle](http://colororacle.org/) or [Spectrum.] (https://chrome.google.com/webstore/detail/spectrum/ofclemegkcmilinpcimpjkfhjfgmhieb?hl=en)
+Red-Green is the most common form of color blindness. Beware of using these colors to communicate data. To check if differences between colors can be perceived by colorblind users, check [Color Oracle](http://colororacle.org/) or [Spectrum.](https://chrome.google.com/webstore/detail/spectrum/ofclemegkcmilinpcimpjkfhjfgmhieb?hl=en)
 
-When showing differences in rate of a single variable, stick to a single hue and vary value/lightness. For example, don't fade from blue to pink. The one exception is fading from red to green to show "bad" to "good" (and remember to check your reds and greens for color blindness accessibility). Beware of using numerical cut-offs for gradient-like colors, see [here](http://junkcharts.typepad.com/junk_charts/2014/08/people-are-happier-in-some-parts-of-the-country-as-labor-day-nears.html).
+When showing differences in rate of a single variable, stick to a single hue and vary value/lightness. For example, don't fade from blue to pink. The one exception is fading from red to green to show "bad" to "good" (and remember to check your reds and greens for color blindness accessibility). 
 
-When use color to show category, use different colors instead of shades. 
+Beware of using numerical cut-offs for gradient-like colors, see [here](http://junkcharts.typepad.com/junk_charts/2014/08/people-are-happier-in-some-parts-of-the-country-as-labor-day-nears.html).
+
+When using color to show category, use different colors instead of shades. 
 
 ## Color Breaks
 
@@ -52,7 +50,7 @@ Make sure your color breaks don't mislead readers about the distribution of your
 
 If the pattern you see in your data only appears under a custom color break scale, rethink whether the pattern is actually in the data.
 
-For color breaks in numerical data, see above.
+For color breaks in numerical data, see [above](#Colors).
 
 ## Corrections
 
@@ -64,24 +62,27 @@ Stick with our policy for dashes in data descriptions.
 
 ## Data: Singular or Plural?
 
-The world data is always plural. See USN stylebook entry: 
+The word "data" is always plural. See USN stylebook entry: 
 
 > "data - always plural From AP: Data is a plural noun, it normally takes plural verbs and pronouns. AP's collective nouns entry includes examples of when data may take singular verbs and pronouns, but to avoid confusion and keep with USN standard practice, we stick with plural."
 
 ## Footnotes
 
-Don't use footnotes. For information necessary for transparency, but not for understanding of the graphic, use methodology. For information necessary for understanding the graphic, see lead-in, asterisks, hovers.
+Don't use footnotes. For information necessary for [transparency,](#transparency) but not for understanding of the graphic, use [methodology.](#methodology) 
+
+For information necessary for understanding the graphic, see [lead-in](#lead-in), [asterisks](#asterisks), [hovers](#hovers).
 
 ## Geocoding
 
-Geocoding is the process of matching address to latitude and longitude points. Use the geocoding guide for this, if you are geocoding large sets of data. For small sets, you can use [] or [] to find points in the city's center.
+Geocoding is the process of matching address to latitude and longitude points. Use the geocoding guide for this, if you are geocoding large sets of data. 
+
+For small sets, you can use [Google Maps.](https://www.google.com/maps/preview) The latitude and longitude are in the URL when you look up a point. 
 
 Always check geocoded data to make sure it isn't 1. in an ocean, 2. in China, 3. in the wrong state. 
 
-
 ## Headlines
 
-Graphics should have a title. All text on graphics follow USN headline style.
+Graphics should have a title. All text on graphics should follow USN headline style.
 
 Avoid repetition in axes labels, legends and the title.
 
@@ -95,30 +96,29 @@ For maps, include the state name on hovers. People forget where all the states a
 
 ##  Labels (Axes)
 
-See Axes.
+See [Axes](#axes).
 
 ##  Labels (Data)
 
-See Legends.
+See [Legends](#legends).
 
 ## Lead-in
 
-Put explanatory copy at the top of the first page of your app or graphic, under the byline. It should be very short -- aim for no more than four or five lines. Avoid re-telling a whole news story, but do make sure you accomplish three things:
+Put explanatory copy in the article/blog post before the graphic. It should be very short -- aim for no more than four or five lines. Avoid re-telling a whole news story, but do make sure you accomplish three things:
 
 1. Give the reader enough background to be able to understand the purpose of the app or graphic.
 2. Let the reader know how to start using any interactivity.
 3. Link to and briefly describe the related story, if any.
 
-
 ## Legends
 
 Always include the information needed to understand the chart with the chart. That means transparency about what the data is, where it came from and its timeframe. 
 
-In charts with only one element, include needed information on the axis or in the title. In charts with more than one element, use labels or a legend, depending on which is more clear. 
+In charts with only one element, include needed information on the axis or in the title. In charts with more than one element, use labels (by the lines or bars) or a legend, depending on which is more clear, but never both. 
 
 A legend must be visible on the reader's computer screen when the chart is visible. Legends should be in the same sequence as the charts they describe.
 
-Avoid repetition in axis labels, legends and the title.
+Avoid repetition in axes labels, legends and titles.
 
 ## Maps
 
@@ -128,7 +128,7 @@ All maps must be distinguishable from population maps. To accomplish this, the u
 
 Avoid bubble maps, which represent the rate of a phenomenon at different locations using differently sized circles. This is for two reasons: First, people cannot accurately perceive differences in the area of circles. Second, bubble maps appear to show the geographic bounds of a phenomenon and not the rate of that phenomenon at the geographic center of the circle. This is another way of saying that they look too much like nuclear blast radius maps.
 
-## Methodology !!link !!decimal points
+## Methodology 
 
 Document any methodology and present it to readers clearly. Post a link to it prominently in the app or graphic. The methodology (or "nerd box") should detail the steps you took to clean the data and the exact analysis you ran on the data.
 
@@ -144,9 +144,9 @@ If you are using data from another source, always understand and make clear to r
 
 ## Numbers
 
-The primary function of numbers in a news application or graphic is to help readers understand scale and order of magnitude, and compare against other numbers. Think of them more like words than like minutely precise coordinates (unless of course your numbers are literally coordinates).
+The primary function of numbers in a graphic is to help readers understand scale and order of magnitude, and compare against other numbers. Think of them more like words than like minutely precise coordinates (unless of course your numbers are literally coordinates).
 
-Apply the following rules to numbers wherever they appear in your apps and graphics:
+Apply the following rules to numbers wherever they appear in graphics:
 
 Except where special precision is required, round numbers and use whole numbers. Don't portray precision that doesn't really exist. This can be accomplished in Excel using the [ROUND function.](http://office.microsoft.com/en-us/excel-help/round-a-number-HP003056144.aspx)
 
@@ -166,7 +166,7 @@ Use AP style when using numbers in copy. That is, spell out numbers under 10 exc
 
 "Not available" and "not applicable" are abbreviated like this: N/A
 
-##  Reusing Graphics
+##  Reuse
 
 When a reporter or producer uses a graphic that has already been created, they need to verify that the data is the most recent available. 
 
@@ -188,7 +188,7 @@ Link to the source or the best version of the source data whenever possible. If 
 
 ## Title 
 
-See headline.
+See [headline](#headline).
 
 ## Total
 
@@ -196,9 +196,9 @@ Only use "total" as an adjective when it's not clear what you're totaling. Never
 
 ##  Transparency
 
-Just we communicate how we obtain information for our stories, we must communicate information on how we calculated numbers and why. See methodology. 
+We communicate how we obtain information for our stories, and we must do the same for our data. Be transparent about how the numbers were calculated and why they were calculated in that way. See [methodology](#Methodology). 
 
-## Updates !!
+## Updates
 
 Unlike an article, which tends to be a frozen description of a moment in time, graphics tend to be durable resources, and may need to be updated from time to time as new data becomes available.
 
@@ -208,5 +208,5 @@ Don't show both the original publication date and the most recent updated date i
 
 When the decision is reached to stop updating an app, put a prominent note on every page of the app that says when the app stopped being updated, and if possible, where to find more recent data.
 
-See reusing graphics. 
+See [reuse](#Reuse). 
 
