@@ -4,11 +4,9 @@ Tools and best practices for the use of data and graphics in the USN&WR newsroom
 
 ## Table of Contents
 
-1. [Intro: The Design and Structure of a News Application](design-structure.md)
-2. [News Apps Style Guide](news-apps.md)
-3. [Coding Manifesto](coding-manifesto.md)
-4. [Social Tagging Guide](social-tags.html)
-5. [Data Bulletproofing Guide](data-bulletproofing.md)
+1. Data and Graphics Encyclopedia
+2. Make a Bar or Line Chart
+3. Make a Choropleth State Map
 
 ## Inspiration
 
