@@ -2,11 +2,13 @@
 
 Tools and best practices for the use of data and graphics in the USN&WR newsroom.
 
-## Table of Contents
+## Table of Contents/ Resources
 
 1. [Data and Graphics Encyclopedia](data-graphics.md)
 2. [Make a Bar or Line Chart](http://lindseycook.io/U.S.-News-Chartbuilder/)
 3. [A Guide to Bulletproofing Your Data](data-bulletproofing.md)
+4. [Make a State Map](https://datawrapper.de/), Guide
+5. Finding Data Guide
 
 ## Inspiration
 

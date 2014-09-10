@@ -32,7 +32,23 @@ By adding credit in this manner, we ensure bylines remain with the content if it
 
 ## Charts
 
-For guidance on which charts and tools to use, refer to the "Which Chart" guide.
+Use a bar chart to show discrete quantities.
+
+Use a stacked bar chart to show the relative values of categories and subcategories of data.
+
+Use a line chart to show continuous variables such as time series.
+
+Use a scatterplot to show a correlation (or lack thereof) between two variables.
+
+Bubble charts are acceptable where the accurate perception of fine differences between the circles is not important (see Maps). Circles in bubble charts should vary in area and not diameter or radius. Bubbles should be used when the data is lat,long.
+
+Avoid 3-D charts at all costs. Humans have enough problem perceiving area accurately. Asking them to perceive 3-D volume makes matters worse.
+
+Use pie charts with caution. The information can likely be conveyed more clearly with a bar chart. [More on why.](http://www.excelcharts.com/blog/optimal-number-categories-pie-chart/)
+
+Don't show interpolated or predicted data without saying you're doing so.
+
+In annual trend data don't include partial years.
 
 ## Colors
 
