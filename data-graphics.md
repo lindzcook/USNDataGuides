@@ -24,7 +24,7 @@ Avoid repetition in the headline, axes labels and legends.
 
 Bylines are important measures of credit and responsibility. Just as every story has a byline, every graphic should have a byline.
 
-Bylines are in this format: "NAME for USN&WR"
+Bylines are combine with the credit line in this format: "NAME for USN&WR; Source: XXXX"
 
 If the chart is an image, bylines should appear on the actual image and on the credit line in the CMS, not simply below the image. For HTML embeds, bylines should be included in the HTML enhancement. Add the following HTML to the end of your enhancement: `<p>NAME for USN&WR</p>`. 
 
@@ -66,7 +66,7 @@ Using shades of the same color for bar graphs can be less distracting for the re
 
 Pick color breaks carefully. Your data may not be best represented with equal-interval breaks. See what patterns emerge using a variety of algorithms, such as quantiles, [Jenks natural breaks](http://en.wikipedia.org/wiki/Jenks_natural_breaks_optimization), [head/tail breaks](https://sites.google.com/site/thepowerofcartography/head-tail-breaks), standard deviation, or even arbitrary breaks that might make sense for your data. For example, if your data is average commute time to work, breaks of 10, 20, 30, 45 and 60+ minutes might make the most sense for readers, even if your data is not distributed normally among those breaks.
 
-Make sure your color breaks don't mislead readers about the distribution of your data. For instance, if your values are mostly clustered between 1 and 10 but includes a few items above 1,000, make sure that the color that represents 1,000 is more than just one shade different than the color that represents 10. The Daily Beast uses a tool they made called [Histagram.me](http://www.histagram.me/) to examine the distribution of datasets.
+Make sure your color breaks don't mislead readers about the distribution of your data. For instance, if your values are mostly clustered between 1 and 10 but includes a few items above 1,000, make sure that the color that represents 1,000 is more than just one shade different than the color that represents 10.
 
 If the pattern you see in your data only appears under a custom color break scale, rethink whether the pattern is actually in the data.
 
@@ -226,13 +226,15 @@ See [numbers](#numbers).
 
 Always seek to add clarity. 
 
-In general, use USN headline style for all text on a graph, meaning the state abbreviation, separated by periods. For hovers, use the state's full name in sentence form. 
+In general, use the postal abbrevations. For hovers or when space allows, use the state's full name. 
 
 ## Sources
 
-Under every display of data, whether it's a map, chart, table or something else, show your data's sources. Our style is to combine the source with the credit line. For example, "Lindsey Cook for USN&WR, Source: FBI"
+Under every display of data, whether it's a map, chart, table or something else, show your data's sources. Our style is to combine the source with the credit line. For example, "Lindsey Cook for USN&WR, Source: XXX"
 
 Link to the source or the best version of the source data whenever possible. If the data went through another party for cleaning or analysis, mention both in the source line. For example, "Source: FCC, Sunlight Foundation" for FCC comments data cleaned by the Sunlight Foundation.
+
+Add the source information in the CMS's credit line as well.
 
 ## Title 
 
@@ -245,16 +247,3 @@ Only use "total" as an adjective when it's not clear what you're totaling. Never
 ##  Transparency
 
 We communicate how we obtain information for our stories, and we must do the same for our data. Be transparent about how the numbers were calculated and why they were calculated in that way. See [methodology](#methodology). 
-
-## Updates
-
-Unlike an article, which tends to be a frozen description of a moment in time, graphics tend to be durable resources, and may need to be updated from time to time as new data becomes available.
-
-When updating an app with new data, don't append a note explaining every change, as that note would be quite lengthy and very boring. Simply update the date in the byline to indicate when the data was last updated. If an app updates dynamically, the date in the byline should change dynamically as well.
-
-Don't show both the original publication date and the most recent updated date in the byline. Your readers don't relish the archival history of our work quite like you might. Simply show the date of the latest update (after the word "updated," of course).
-
-When the decision is reached to stop updating an app, put a prominent note on every page of the app that says when the app stopped being updated, and if possible, where to find more recent data.
-
-See [reuse](#reuse). 
-
